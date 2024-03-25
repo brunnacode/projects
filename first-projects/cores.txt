@@ -1,0 +1,18 @@
+Verde Suave:
+
+#8CC084
+Verde Menta:
+
+#6ABF8B
+Verde Claro:
+
+#A2D5A6
+Roxo Lavanda:
+
+#B19CD9
+Roxo Suave:
+
+#9E91C7
+Roxo Pastel:
+
+#D3BDE6

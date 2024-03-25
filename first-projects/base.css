@@ -1,0 +1,256 @@
+html, body {
+    margin: 0px;
+    font-family: 'Dancing', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #efe5f8;   
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 30%;
+    background-color: white;
+    padding: 30px 20px 0px;
+    background-color: #efe5f8;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+.menu a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+    display: block; /* Transformar os links em elementos de bloco */
+    padding: 10px;
+}
+
+.menu a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.menu h3 {
+    text-align: center;
+    color: #8CC084;
+    font-size: 30px;
+    font-family: "Ojuju", sans-serif;
+    font-weight: bolder;
+}
+
+.menu img {
+    position: absolute;
+    padding: 170px  0px;
+}
+
+.header {
+    background-color: white;
+    min-height: 150px;
+}
+
+.header img {
+    float: right; 
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.header h1 {
+    float: inline-start;
+    padding-top: 5%;
+    padding-left: 20%;
+    font-family: "Ojuju", sans-serif;
+    font-size: 50px;
+    color: #8CC084;
+}
+
+.content {
+    background-color: white;
+    min-height: 260px;
+    padding: 100px;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: #efe5f8;
+    height: 280px;
+}
+
+
+.footer th {
+    color: #6ABF8B;
+    text-align: left;
+    font-size: large;
+}
+
+.footer td {
+    text-align: left;
+    width: 230px;
+}
+
+.footer table {
+    margin: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px; 
+}
+
+.atendimento {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.atendimento caption {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 6px;
+    border: 3px solid #6ABF8B;
+    border-radius: 10px;
+}
+
+.atendimento th {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 6px;
+    border: 2px solid #6ABF8B;
+    border-radius: 12px;
+}
+
+.precos {
+    font-size: 18px;
+    text-align: center;
+}
+
+.precos caption {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 4px;
+    border: 3px solid #6ABF8B;
+    border-radius: 10px;
+}
+
+.precos th {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 6px;
+    border: 2px solid #6ABF8B;
+    border-radius: 12px;
+}
+
+.content-blog {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.article-text {
+   font-size: 18px;
+   width: 200px;
+}
+
+.content-page-blog {
+    background-color: white;
+    text-align: center;
+    
+}
+
+form {
+    /* centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+
+  form div + div {
+    margin-top: 1em;
+  }
+
+  label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  input, textarea {
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+  
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+  
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+  }
+
+  .button {
+    padding-left: 90px; 
+  }
+
+  button {
+    margin-left: 0.5em;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+  }
+  
